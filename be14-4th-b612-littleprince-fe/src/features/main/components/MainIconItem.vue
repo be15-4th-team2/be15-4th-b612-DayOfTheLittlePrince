@@ -123,7 +123,7 @@ const toggleNotificationModal = () => {
 };
 
 const isMainOrCalendar = computed(() =>
-    route.path === '/' || route.path.startsWith('/calendar')
+    route.path === '/' || route.path === '/calendar'
 );
 
 </script>
